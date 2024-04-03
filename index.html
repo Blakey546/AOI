@@ -6,9 +6,30 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+	<style>
+        	body {
+            	animation: fadeInAnimation ease 3s;
+            	animation-iteration-count: 1;
+            	animation-fill-mode: forwards;
+        	}
+
+        	h1 {
+            	color: green;
+        	}
+
+        	@keyframes fadeInAnimation {
+            	0% {
+                	opacity: 0;
+            	}
+
+            	100% {
+                	opacity: 1;
+            	}
+        }
+    </style>
 	</head>
 	<body id="top">
-		
+	
 			<!-- Banner -->
 			<!--
 				To use a video as your background, set data-video to the name of your video without
