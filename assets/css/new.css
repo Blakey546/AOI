@@ -16,6 +16,7 @@ html {
 }
 
 body {
-    display: table-cell;
-    vertical-align: top;
+	display: table-cell;
+	vertical-align: top;
+	background-color: blue;
 }
