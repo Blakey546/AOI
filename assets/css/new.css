@@ -2,15 +2,20 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css2?family=Krona+One&display=swap");
 
-	@-ms-viewport {
-		  width: device-width;
-	  }
+@-ms-viewport {
+	width: device-width;
+}
 
-	html {
-		background: #fdffff;
-	}
+html, body {
+    height: 100%;
+}
 
-	body {
-		text-align: center;
-        	display: block;
-	}
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
