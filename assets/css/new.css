@@ -9,3 +9,8 @@
 	html {
 		background: #fdffff;
 	}
+
+	window {
+		text-align: center;
+        	display: block;
+	}
