@@ -6,19 +6,6 @@
     <link rel="stylesheet" href="https://unpkg.com/98.css@0.1.4/build/98.css" />
     <link rel="stylesheet" href="assets/css/new.css" />
 
-
-<script>
-document.addEventListener('click', musicPlay);
-function musicPlay() {
-    document.getElementById("music").play();
-    document.removeEventListener('click', musicPlay);
-}
-</script>
-  
-<audio controls autoplay>
-  <source src="music/webMusic.mp3" type="audio/mpeg" id="music">
-Your browser does not support the audio element.
-</audio>
     <style>
       body {
         animation: fadeInAnimation ease 3s;
@@ -36,6 +23,7 @@ Your browser does not support the audio element.
   </head>
 
   <body>
+    <audio id="audio" src="https://files.catbox.moe/poz3xu.mp3" autoplay="" loop=""></audio>
     <img src="images/windows.png" width="450" height="450" style="margin-top: 20px; margin-left: 47px;">
     <div class="window" style="margin: 32px; width: 500px">
       <div class="title-bar">
