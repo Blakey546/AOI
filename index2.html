@@ -1,131 +1,46 @@
-<!DOCTYPE HTML>
-
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>AOI</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="https://unpkg.com/98.css"/>
-		<link rel="stylesheet" href="assets/css/new.css"/>
-	<style>
-        	h1 {
-            	color: green;
-        	}
+  <head>
+    <title>AOI</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://unpkg.com/98.css@0.1.4/build/98.css" />
+    <link rel="stylesheet" href="assets/css/new.css" />
 
-        	@keyframes fadeInAnimation {
-            	0% {
-                	opacity: 0;
-            	}
-
-            	100% {
-                	opacity: 1;
-            	}
-		img {
-  			display: block;
-			margin-left: auto;
-  			margin-right: auto;
-			text-align: center;
-		}
-		p {
-			text-align: center;
-		}
-		.image.main {
-			display: block;
-			margin: 0 0 3em 0;
-			width: 100%;
-		}
-      		.img-container {
-       			text-align: center;
-			display: block;
-      		}
-		html {
-		background: #fdffff;
-		}
-        }
+    <style>
+      body {
+        animation: fadeInAnimation ease 3s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+      }
+      @keyframes fadeInAnimation {
+        0% {
+          opacity: 0;
+          }
+        100% {
+          opacity: 1;
+          }
     </style>
-<style type="text/css">
- input{
-  width:220px;
-  height:50px;
-  display:block;
-  background:url(images/windows.png);
-  border: none;
- }
-#center
-</style>
-	</head>
-	<body id="top">
-			<!-- Main -->
-				<div id="main">
-					<div class="inner">
-					<!-- Boxes -->
-						<div class="img-container">
-							<img src="images/windows.png" width="450" height="450" text-align="center">
-						</div>
-						<div class="thumbnails">
-							<div class="box">
-								<div class="window" style="width: 300px">
-									<div class="title-bar">
-    										<div class="title-bar-text">A Window With Stuff In It</div>
-    											<div class="title-bar-controls">
-     										 		<button aria-label="Minimize"></button>
-      												<button aria-label="Maximize"></button>
-      												<button aria-label="Close"></button>
-   											</div>
-  										</div>
-									</div>
- 								<div class="window-body">
-    									<p>There's so much room for activities!</p>
- 								</div>
-							<div class="box">
-								<a href="https://blakey546.github.io/beakfestcomics.github.io/beakfesttable" class="image fit"><img src="images/pic01.png" alt="" /></a>
-								<div class="inner">
-									<h3>beakfest club</h3>
-									<p>we're not the breakfast club, we're not loser stereotyped high schoolers (excluding two idiots), we are loser stereotypical middle schoolers.</p>
-									<button id="myButton" class="float-left submit-button" >take a read!!! now!!!!</button>
+  </head>
 
-									<script type="text/javascript">
-    										document.getElementById("myButton").onclick = function () {
-        										location.href = "https://blakey546.github.io/beakfestcomics.github.io/beakfesttable";
-									    };
-									</script>
-								</div>
-								<a href="https://blakey546.github.io/beakfestcomics.github.io/nolantable" class="image fit"><img src="images/nolan.png" alt="" /></a>
-								<div class="inner">
-									<h3>nolan gets smashed</h3>
-									<p>nolan learns to smash from myles</p>
-									<button id="myButton3" class="float-left submit-button" >take a read!!! now!!!!!</button>
-
-									<script type="text/javascript">
-    										document.getElementById("myButton3").onclick = function () {
-        										location.href = "https://blakey546.github.io/beakfestcomics.github.io/nolantable";
-									    };
-									</script>
-								</div>
-							</div>
-						</div>
-
-					</div>
-				</div>
-
-			<!-- Footer -->
-				<footer id="footer">
-					<div class="inner">
-						<ul class="icons">
-							<li><a href="https://twitter.com/blakrr1" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-							<img src="images/banner.jpg" width="734" height="323">
-						</ul>
-					</div>
-				</footer>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.poptrox.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-
-	</body>
+  <body>
+    <audio id="audio" src="https://files.catbox.moe/poz3xu.mp3" autoplay="" loop=""></audio>
+    <img src="images/windows.png" width="450" height="450" style="margin-top: 20px; margin-left: 47px;">
+    <div class="window" style="margin: 32px; width: 500px">
+      <div class="title-bar">
+        <div class="title-bar-text">
+          Select Your Page
+        </div>
+        <div class="title-bar-controls">
+          <button aria-label="Minimize"></button>
+          <button aria-label="Maximize"></button>
+          <button aria-label="Close"></button>
+        </div>
+      </div>
+      <div class="window-body">
+        <section class="field-row" style="justify-content: center">
+		<p>As I was introduced to the Area of Inquiry project, I wondered what my idea should be. I went over many different decisions, debating tennis, learning music theory, and more ideas. But eventually, I couldn’t stop myself from wanting to make a game. It’s been a lifelong dream of mine to make a game, and I thought that now might’ve been the time. But what? But how? While it was a dream of mine, that had a double meaning. I had no idea if anything like that was feasible, much less by someone like me, in the timeframe I had. So I began to go step by step, through each major problem I thought of.</p>
+        </section>
+      </div>
+    </div>
+  </body>
 </html>
